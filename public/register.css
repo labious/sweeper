@@ -1,0 +1,68 @@
+/*@import url('https://fonts.googleopis.com/css?family=Open+Sans:400,500&display=swap');*/
+
+*{
+    box-sizing: border-box;
+
+}
+a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0.3px #FBA600;
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+}
+.header{
+    background-color: #05569D;
+    color: white;
+    border-bottom: 1px solid #134c64;
+    padding: 20px 40px;
+}
+.header h2{
+    margin: 0;
+}
+.form{
+    padding: 30px 40px;
+}
+.form-Control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-Control input{
+    font-family: inherit;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #000C17;
+    outline: none;
+    background: transparent;
+}
+.form button{
+    border-radius: 15px;
+    color:black ;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;background-color:#05569D;
+    border: #05569D;
+    color: white;
+}

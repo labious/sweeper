@@ -1,0 +1,23 @@
+{
+  "name": "e-register",
+  "version": "1.0.0",
+  "description": "E-register",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:labious/E-Register.git"
+  },
+  "keywords": [
+    "e-register"
+  ],
+  "author": "Itthynkers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com:labious/E-Register/issues"
+  },
+  "homepage": "https://ggithub.com:labious/E-Register#readme"
+}
